@@ -20,7 +20,14 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-    
+    The staging area allows you to add (git add <file_name>) only the files
+    that have been changed. It helps you to make sure that the new commit
+    will only have a logical change (if you organize it at this way). If
+    are not sure if the files you added have the changes you want, you can
+    just use the "git diff --staged" command to verify the differences
+    between the files on the staging area and the most recent commit. After
+    ensuring the logical change, you can use "git commit" to create a new
+    version/commit. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
