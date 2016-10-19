@@ -43,7 +43,11 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
-
+    The diagrams can show you graphically how your branches and commits are
+    organized. It makes easier to visualize the whole branch structure,
+    allowing you to organize yourself and helping you not to create a new
+    commit in the middle of a branch (it would make the new commit
+    unreacheable).
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
