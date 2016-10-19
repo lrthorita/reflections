@@ -32,7 +32,14 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-
+    If in a certain instance you want to try a new feature to your program,
+    but you don't want it to interfere the on going project, you can create
+    a new branch for this experiment. Or maybe if you want to try a new 
+    version of your project (say it you want to make a program in another
+    language), you can create a branch for this new version and design it
+    in parallel with the master branch. This way, you can keep your history
+    of your repository organized, in such a way that you can see in which
+    commit you created a new branch, and see what is that branch about.
 
 How do the diagrams help you visualize the branch structure?
 
