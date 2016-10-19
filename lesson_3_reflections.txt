@@ -15,4 +15,32 @@ automatically stay up-to-date with your remote repository?
     pull changes manually, you can have the control of when is the best
     time to do it.
 
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+    Forks
+	It creates a clone of a GitHub repository onto another GitHub account.
+	It is done when you want to have a remote repository of an existing
+	repository of other developer, and you don't want to modify his
+	repository. This way, you can make pulls and pushes to update your
+	local and remote repository without changing the original GitHub
+	repository.
+
+    Clones
+	It clones an existing repository (local or remote) to a local directory
+	of your own computer. When you clone a GitHub repository to your local
+	directory, you can commit new versions and push it onto the GitHub
+	repository, updating it. Also, doing the clone from a GitHub
+	repository, it will automatically create a remote refered to the link
+	address of this same GitHub repository. So, if you don't want to
+	make changes on this GitHub, you must fork it first, then clone your
+	forked repository to your local machine.
+
+    Branches
+	It is different from forks and clones, because it will not create a
+	copy of a repository. It will just create a new branch from the commit
+	it is checked out. If you just want to experiment a new feature to your
+	project, you can just create a new branch, rather than cloning the
+	whole repository.
+
 
