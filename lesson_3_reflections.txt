@@ -43,4 +43,13 @@ one instead of another?
 	project, you can just create a new branch, rather than cloning the
 	whole repository.
 
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+    If you have a copy of the last known state of the remote stored locally,
+    you can have an offline access of all the changes that have been made
+    since the last time you fetched the remote. If there are any conflicts
+    between the local and remote repositories, you can verify it by the
+    "git diff" command and figure it out how to solve it.
+
 
