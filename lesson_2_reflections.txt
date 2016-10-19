@@ -52,9 +52,26 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    The result of merging two branches together is a combined code of them.
+    The merging command will get the modifications made by a branch and the
+    others to add in a unique code. Sometimes, there will be some conflicts
+    caused by similar modifications in both branches. If you get a conflict,
+    you must open the merged code and verify where the modifications were made,
+    compare and decide which one is better for your new commit. After
+    modifying and saving the code, you must add to the staging area and
+    make a new commit.
+    We use to represent it in a diagram to make it easy to visualize where
+    we made the merging of two or more branches. This way is easier to
+    organize the structure of our repository and make decisions. Also, it
+    helps you to visualize the parentage of each commit of each branch.
 
-
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-
+    The Git's automatic merging is useful to combine two branches in just
+    one command. This isn't time consumming, but sometimes it can't decide
+    properly which modifications must be discarded or used. In this case,
+    you will have to make the merges manually. On the other hand, always
+    doing merges manually will allow you to always decide which modifications
+    should be discarded or not. But, it will cost you more time, and it is
+    not always necessary.
