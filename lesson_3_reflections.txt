@@ -63,4 +63,13 @@ and what would be harder?
     features, to merge two different versions, etc. Maybe, in a collaborative
     project, it would be chaotic.
 
- 
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+    I would make changes in a separates branch everytime I didn't want to 
+    break the master branch. It could be for new features testing, or new
+    versions that should be approved in a pull request on GitHub. The benefits
+    of doing this are avoiding breaking the master branch versions, and
+    allowing better organization if you want to try more than one new feature
+    (which would lead you to make more than one new branch).
+
