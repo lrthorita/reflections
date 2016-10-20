@@ -52,4 +52,15 @@ stored locally?
     between the local and remote repositories, you can verify it by the
     "git diff" command and figure it out how to solve it.
 
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
 
+    Without using Git or GitHub I would create a new copy of the code file
+    for each modification that I am just testing. It would be like a new
+    branch. To share my work, I would put all together in a compressed file
+    and share it on a hosted cloud memory. Probably, it would be much more
+    difficult to track logical modifications, different experiments of new
+    features, to merge two different versions, etc. Maybe, in a collaborative
+    project, it would be chaotic.
+
+ 
